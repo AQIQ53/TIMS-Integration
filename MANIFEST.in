@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include aqiq_kra *.css
+recursive-include aqiq_kra *.csv
+recursive-include aqiq_kra *.html
+recursive-include aqiq_kra *.ico
+recursive-include aqiq_kra *.js
+recursive-include aqiq_kra *.json
+recursive-include aqiq_kra *.md
+recursive-include aqiq_kra *.png
+recursive-include aqiq_kra *.py
+recursive-include aqiq_kra *.svg
+recursive-include aqiq_kra *.txt
+recursive-exclude aqiq_kra *.pyc
